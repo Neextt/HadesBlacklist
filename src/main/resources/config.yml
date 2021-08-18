@@ -1,0 +1,31 @@
+# LBlackList - feito por lxsthw
+# Versão exclusiva da Rede Hades.
+
+# Tipos de bancos de dados disponíveis atualmente: MySQL
+mysql:
+ # Host para acessar o MySQL
+ host: localhost
+ # Porta para acessar o MySQL
+ port: 3306
+ # Nome do banco de dados no MySQL
+ database: site
+ # Usuário de acesso ao MySQL
+ username: root
+ # Senha de acesso ao MySQL
+ password: ''
+# Desativa os comandos para o BungeeCord quando estiver em algum dos servidores listados
+# Sistema para proibir no servidor de Login para alguém não banir usuários na conta de um Administrador sem logar.
+servers:
+ - login
+# Mensagens quando o jogador é banido, lembrando que sempre utilize 'mensagem', para não ocorrer nenhum problema de reset.
+ban-kick: '§c§lREDE HADES\n \n§cVocê está na blacklist da rede de servidores! \n§cUsuários nesta lista não entra no servidor.\n \n§cSaiba mais acessando: §fdiscord.redehades.com.br'
+ban-broadcast:
+ - ' '
+ - ' §c* O &f%target% §cfoi adicionado na §c§lBLACK LIST!'
+ - ' §c* §cMotivo: §f%reason%'
+ - ' '
+revogar-all:
+ - ' '
+ - ' §c* O §f%target% §cteve sua blacklist retirada.'
+ - ' §c* Motivo: §f%reason%'
+ - ' '

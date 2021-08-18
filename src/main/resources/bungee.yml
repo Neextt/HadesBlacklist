@@ -1,0 +1,11 @@
+author: lxsthw
+name: LBlacklist
+version: 1.0
+
+main: net.lxsthw.redehades.blacklist.Bungee
+
+commands:
+ blacklist:
+  aliases: [listanegra]
+ unblacklist:
+  aliases: [unblacklist]

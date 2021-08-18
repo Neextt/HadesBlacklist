@@ -1,0 +1,7 @@
+#configuração de tempo: (PERMANENTE ou time:formato)
+types:
+ Roubo:
+  type: BAN
+  time: PERMANENTE
+  permission: 'blacklist.ban'
+  reason: 'Roubo'
